@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# build output (build.bat recreates these)
+build/
+dist/
+release/
+*.spec
+
+# local backups (filename-month-dd-yyyy.ext)
+*-january-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+*-february-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+*-march-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+*-april-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+*-may-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+*-june-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+*-july-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+*-august-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+*-september-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+*-october-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+*-november-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+*-december-[0-9][0-9]-[0-9][0-9][0-9][0-9]*
+
+# editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
