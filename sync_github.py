@@ -9,7 +9,8 @@ What it does:
   older versions.
 - Updates the version number in GITHUB\README.md (download links and badge).
 
-GITHUB\README.md (the GitHub pitch), GITHUB\docs\ (logo and screenshots) and GITHUB\.gitignore
+GITHUB\README.md (the GitHub pitch), GITHUB\docs\ (logo and screenshots), GITHUB\LICENSE,
+GITHUB\.gitignore, GITHUB\.gitattributes and the GITHUB\.git repository
 belong to the GITHUB folder only and are never overwritten.
 
 Created by Andy Christian S. Loyola <acl20032003@gmail.com>
@@ -28,7 +29,7 @@ BACKUP = re.compile(r"-(january|february|march|april|may|june|july|august|septem
                     r"november|december)-\d{2}-\d{4}", re.I)
 TOP_FILES = ["localdevx.pyw", "LocalDevX.bat", "build.py", "build.bat", "sync_github.py"]
 MIRROR_DIRS = {"localdevx": (".py",), "installer": (".iss",)}
-OWNED = {"README.md", ".gitignore"}  # GITHUB-only files at the top level
+OWNED = {"README.md", ".gitignore", ".gitattributes", "LICENSE"}  # GITHUB-only files at the top level
 
 
 def wanted(name, exts):
